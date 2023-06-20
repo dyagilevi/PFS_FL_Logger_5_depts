@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/primary_text_dark"
+    android:paddingEnd="10dp"
+    android:textAlignment="center"
+    tools:context=".TimerFragment">
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_round_grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="User"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_userLabel"
+        app:layout_constraintStart_toStartOf="@+id/tv_userLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tv_userLabel" />
+
+    <EditText
+        android:id="@+id/et_barcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edit_round_grey"
+        android:ems="10"
+        android:enabled="true"
+        android:focusableInTouchMode="true"
+        android:hint="Module Barcode"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="Duration"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_barcode" />
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00:00"
+        android:background="@drawable/edit_round_grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_rank"
+        app:layout_constraintStart_toStartOf="@+id/tv_rank"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rank" />
+
+
+    <ImageView
+        android:id="@+id/iv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_baseline_play_circle_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_duration"
+        app:layout_constraintStart_toStartOf="@+id/tv_duration"
+        app:layout_constraintTop_toBottomOf="@+id/tv_duration"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <TextView
+        android:id="@+id/tv_userLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="User Name"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/tv_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Module"
+        android:background="@drawable/edit_round_grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_rank"
+        app:layout_constraintStart_toStartOf="@+id/tv_rank"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/tv_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_round_grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Dep - Station"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_module"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Module Code"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_module"
+        app:layout_constraintStart_toStartOf="@+id/tv_module"
+        app:layout_constraintTop_toBottomOf="@+id/et_barcode" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:text="Department - Station"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_duration"
+        app:layout_constraintEnd_toStartOf="@+id/tv_rank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_stationLogCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Station's Log Count"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView" />
+
+    <ImageView
+        android:id="@+id/iv_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/ic_baseline_stop_circle_24"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_status"
+        app:layout_constraintStart_toEndOf="@+id/iv_status"
+        app:layout_constraintTop_toTopOf="@+id/iv_status" />
+
+    <EditText
+        android:id="@+id/et_note"
+        android:layout_width="260dp"
+        android:layout_height="306dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_round_grey"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Comments/Notes"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_rank"
+        app:layout_constraintTop_toBottomOf="@+id/tv_module" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

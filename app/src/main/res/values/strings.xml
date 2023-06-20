@@ -1,0 +1,85 @@
+<resources>
+
+    <string name="googleScriptUrlGetLogsConvection">
+        "https://script.google.com/macros/s/AKfycbzXo0g4kI3DCUVAhXhxlppmUJyuoELwhpL2qeZn8I6MdMmn4vH72AyaeMoyvJ6NANjxRw/exec?action=getLogs"
+    </string>
+
+    <string name="googleScriptUrlPostConvection">
+        "https://script.google.com/macros/s/AKfycbzXo0g4kI3DCUVAhXhxlppmUJyuoELwhpL2qeZn8I6MdMmn4vH72AyaeMoyvJ6NANjxRw/exec"
+    </string>
+
+    <string name="googleScriptUrlGetComplianceConvection">
+        "https://script.google.com/macros/s/AKfycbzXo0g4kI3DCUVAhXhxlppmUJyuoELwhpL2qeZn8I6MdMmn4vH72AyaeMoyvJ6NANjxRw/exec?action=getCompliance"
+    </string>
+
+    <string name="googleScriptLoginConvection">
+        "https://script.google.com/macros/s/AKfycbyoRO9i0Sa6GJxDJcyTpkJ8zILY6tt1mYEJBoefOcYmXPOy5L71_Xy5ibwU2nw4ePJmKw/exec"
+    </string>
+
+    <string name ="googleScriptGetStationsConvection">
+        "https://script.google.com/macros/s/AKfycbzXo0g4kI3DCUVAhXhxlppmUJyuoELwhpL2qeZn8I6MdMmn4vH72AyaeMoyvJ6NANjxRw/exec?action=getStations"
+    </string>
+
+    <string name="googleChatURL">
+        "https://chat.googleapis.com/v1/spaces/AAAA5VEM9X0/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&amp;token=M7Xli2qaLbOARvSUOBLu76saYgULUnoX_eADyqcmN0A%3D"
+    </string>
+
+    <string name="portalStanbury">
+        "https://portal.stanburyee.com/api/cm-details/?barcode="
+    </string>
+
+    <string name="googleScriptUrlGetLogsPFS">
+        "https://script.google.com/macros/s/AKfycbyJU8m4wfzVwQHJI7PFCWIUIluviDsk0TGrMGBV69jCM39m6VUXa07OBnh1neuAciN_9A/exec?action=getLogs"
+    </string>
+
+    <string name="googleScriptUrlPostPFS">
+        "https://script.google.com/macros/s/AKfycbyJU8m4wfzVwQHJI7PFCWIUIluviDsk0TGrMGBV69jCM39m6VUXa07OBnh1neuAciN_9A/exec"
+    </string>
+
+    <string name="googleScriptUrlGetCompliancePFS">
+        "https://script.google.com/macros/s/AKfycbyJU8m4wfzVwQHJI7PFCWIUIluviDsk0TGrMGBV69jCM39m6VUXa07OBnh1neuAciN_9A/exec?action=getCompliance"
+    </string>
+
+    <string name="googleScriptLoginPFS">
+        "https://script.google.com/macros/s/AKfycbylNaSzjDqeaBY0j3yESNy_fbxcpdouQ5MDu9Ftq-UWh0mYC1c/exec"
+    </string>
+
+    <string name="googleScriptGetStationsPFS">
+        "https://script.google.com/macros/s/AKfycbyJU8m4wfzVwQHJI7PFCWIUIluviDsk0TGrMGBV69jCM39m6VUXa07OBnh1neuAciN_9A/exec?action=getStations"
+    </string>
+
+    <string name="googleScriptUrlGetLogsInductor">
+        "https://script.google.com/a/macros/stanburyee.com/s/AKfycby2YaApB3fVAyn8yAHcxW3RsDW2xtyx3BjEnqaXafTVrQ7_V1Z1IiopZOL3GCXB5AeS/exec?action=getLogs"
+    </string>
+
+    <string name="googleScriptUrlPostInductor">
+        "https://script.google.com/a/macros/stanburyee.com/s/AKfycby2YaApB3fVAyn8yAHcxW3RsDW2xtyx3BjEnqaXafTVrQ7_V1Z1IiopZOL3GCXB5AeS/exec"
+    </string>
+
+    <string name="googleScriptUrlGetComplianceInductor">
+        "https://script.google.com/a/macros/stanburyee.com/s/AKfycby2YaApB3fVAyn8yAHcxW3RsDW2xtyx3BjEnqaXafTVrQ7_V1Z1IiopZOL3GCXB5AeS/exec?action=getCompliance"
+    </string>
+
+    <string name="googleScriptLoginInductor">
+        "https://script.google.com/a/macros/stanburyee.com/s/AKfycbx_UYa_6tpnTp86C5OwYu2zyn2NDtC8gTgQr1l6brnhmUAzFcR4dPXbVyFdJiykpY4tJg/exec"
+    </string>
+
+    <string name ="googleScriptGetStationsInductor">
+        "https://script.google.com/macros/s/AKfycby2YaApB3fVAyn8yAHcxW3RsDW2xtyx3BjEnqaXafTVrQ7_V1Z1IiopZOL3GCXB5AeS/exec?action=getStations"
+    </string>
+
+    <string-array name="departments">
+        <item>PFS</item>
+        <item>Convection</item>
+        <item>Inductor</item>
+    </string-array>
+
+    <string-array name="faultTypes">
+        <item>Solder</item>
+        <item>Components</item>
+        <item>Cables/Wires</item>
+        <item>Mechanical assembly</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

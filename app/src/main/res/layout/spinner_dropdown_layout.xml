@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:text="TEST"
+    android:textSize="30sp"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:textColor="@color/design_default_color_primary"
+    android:layout_height="wrap_content">
+
+</TextView>
